@@ -236,6 +236,19 @@ hr {
     /* You can also use height instead of width if you prefer */
 }
 
+/*Google Map embeded */
+#map-container {
+   width: 100%; /* Adjust this width as needed */
+   height: 400px; /* Adjust the height according to your preference */
+}
+
+/* Media query for screens smaller than 600px (adjust as needed) */
+@media screen and (max-width: 600px) {
+   #map-container {
+      height: 300px; /* Adjust the height for smaller screens */
+   }
+}
+
 
 /* Row */
 .row {
